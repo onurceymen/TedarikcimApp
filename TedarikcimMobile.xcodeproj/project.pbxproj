@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C53C5772B84E8A30021828A /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C5762B84E8A30021828A /* MainPageController.swift */; };
+		9C53C57B2B84ED230021828A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C57A2B84ED230021828A /* LoginController.swift */; };
+		9C53C57D2B84ED300021828A /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C57C2B84ED300021828A /* RegisterController.swift */; };
+		9C53C57F2B84ED490021828A /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C57E2B84ED490021828A /* ForgotPasswordController.swift */; };
+		9C53C5812B84ED6E0021828A /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C5802B84ED6E0021828A /* AuthHeaderView.swift */; };
+		9C53C5832B84ED7D0021828A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C5822B84ED7D0021828A /* CustomButton.swift */; };
+		9C53C5852B84ED8F0021828A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53C5842B84ED8F0021828A /* CustomTextField.swift */; };
 		9C9C2F3E2B80F2BC00C42487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C2F3D2B80F2BC00C42487 /* AppDelegate.swift */; };
 		9C9C2F402B80F2BC00C42487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C2F3F2B80F2BC00C42487 /* SceneDelegate.swift */; };
-		9C9C2F422B80F2BC00C42487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C2F412B80F2BC00C42487 /* ViewController.swift */; };
 		9C9C2F452B80F2BC00C42487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C2F432B80F2BC00C42487 /* Main.storyboard */; };
 		9C9C2F472B80F2BE00C42487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C2F462B80F2BE00C42487 /* Assets.xcassets */; };
 		9C9C2F4A2B80F2BE00C42487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C2F482B80F2BE00C42487 /* LaunchScreen.storyboard */; };
@@ -28,22 +34,38 @@
 		9C9C2F6B2B80F3CE00C42487 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9C9C2F6A2B80F3CE00C42487 /* FirebaseFirestore */; };
 		9C9C2F6D2B80F3CE00C42487 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9C9C2F6C2B80F3CE00C42487 /* FirebaseFirestoreCombine-Community */; };
 		9C9C2F6F2B80F3D900C42487 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C2F6E2B80F3D900C42487 /* GoogleService-Info.plist */; };
-		9C9C2F752B80F67D00C42487 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C2F742B80F67D00C42487 /* User.swift */; };
 		9C9C2F782B80FC3D00C42487 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C2F772B80FC3D00C42487 /* AlertHelper.swift */; };
+		9CA3B7E22B85F65A0051E10F /* LoginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3B7E12B85F65A0051E10F /* LoginUserRequest.swift */; };
+		9CA679612B85ED7100B096A8 /* RegiserUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA679602B85ED7100B096A8 /* RegiserUserRequest.swift */; };
+		9CBD61D32B86231A00D5D63E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD61D22B86231A00D5D63E /* LoginView.swift */; };
+		9CBD61D62B86288200D5D63E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD61D52B86288200D5D63E /* RegisterView.swift */; };
+		9CBD61D82B86289400D5D63E /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD61D72B86289400D5D63E /* ForgotPasswordView.swift */; };
+		9CBD61DA2B86293F00D5D63E /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD61D92B86293F00D5D63E /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C53C5762B84E8A30021828A /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
+		9C53C57A2B84ED230021828A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9C53C57C2B84ED300021828A /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		9C53C57E2B84ED490021828A /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		9C53C5802B84ED6E0021828A /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		9C53C5822B84ED7D0021828A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9C53C5842B84ED8F0021828A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9C9C2F3A2B80F2BC00C42487 /* TedarikcimMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TedarikcimMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9C2F3D2B80F2BC00C42487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C9C2F3F2B80F2BC00C42487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C9C2F412B80F2BC00C42487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C9C2F442B80F2BC00C42487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C9C2F462B80F2BE00C42487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C9C2F492B80F2BE00C42487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C9C2F4B2B80F2BE00C42487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C9C2F6E2B80F3D900C42487 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9C9C2F742B80F67D00C42487 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9C9C2F772B80FC3D00C42487 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		9CA3B7E12B85F65A0051E10F /* LoginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserRequest.swift; sourceTree = "<group>"; };
+		9CA679602B85ED7100B096A8 /* RegiserUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiserUserRequest.swift; sourceTree = "<group>"; };
+		9CBD61D22B86231A00D5D63E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9CBD61D52B86288200D5D63E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9CBD61D72B86289400D5D63E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		9CBD61D92B86293F00D5D63E /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C53C5672B84E6260021828A /* TedarikcimOnline */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C56F2B84E6B50021828A /* Controller */,
+				9C53C56E2B84E6B00021828A /* View */,
+			);
+			path = TedarikcimOnline;
+			sourceTree = "<group>";
+		};
+		9C53C5682B84E63D0021828A /* TedarikcimHemen */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C56D2B84E6A40021828A /* View */,
+				9C53C56C2B84E69E0021828A /* Controller */,
+			);
+			path = TedarikcimHemen;
+			sourceTree = "<group>";
+		};
+		9C53C5692B84E6520021828A /* TedarikcimPazar */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C56B2B84E67B0021828A /* Controller */,
+				9C53C56A2B84E6720021828A /* View */,
+			);
+			path = TedarikcimPazar;
+			sourceTree = "<group>";
+		};
+		9C53C56A2B84E6720021828A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C53C56B2B84E67B0021828A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C53C56C2B84E69E0021828A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C53C56D2B84E6A40021828A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C53C56E2B84E6B00021828A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C53C56F2B84E6B50021828A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C53C5702B84E6D40021828A /* userOperations */ = {
+			isa = PBXGroup;
+			children = (
+				9CBD61D12B8621EE00D5D63E /* ViewHelper */,
+				9CA6795F2B85ED4F00B096A8 /* Model */,
+				9C53C5792B84ECF40021828A /* View */,
+				9C53C5782B84ECEB0021828A /* Controller */,
+			);
+			path = userOperations;
+			sourceTree = "<group>";
+		};
+		9C53C5712B84E6E00021828A /* TedarikcimMainPage */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C5732B84E6FC0021828A /* Controller */,
+				9C53C5722B84E6F70021828A /* View */,
+			);
+			path = TedarikcimMainPage;
+			sourceTree = "<group>";
+		};
+		9C53C5722B84E6F70021828A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C53C5732B84E6FC0021828A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C5762B84E8A30021828A /* MainPageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C53C5782B84ECEB0021828A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C57A2B84ED230021828A /* LoginController.swift */,
+				9C53C57C2B84ED300021828A /* RegisterController.swift */,
+				9C53C57E2B84ED490021828A /* ForgotPasswordController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C53C5792B84ECF40021828A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CBD61D22B86231A00D5D63E /* LoginView.swift */,
+				9CBD61D52B86288200D5D63E /* RegisterView.swift */,
+				9CBD61D72B86289400D5D63E /* ForgotPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9C9C2F312B80F2BC00C42487 = {
 			isa = PBXGroup;
 			children = (
@@ -90,13 +236,14 @@
 		9C9C2F3C2B80F2BC00C42487 /* TedarikcimMobile */ = {
 			isa = PBXGroup;
 			children = (
-				9C9C2F702B80F54200C42487 /* Model */,
-				9C9C2F712B80F54A00C42487 /* View */,
-				9C9C2F722B80F55500C42487 /* Controller */,
+				9C53C5702B84E6D40021828A /* userOperations */,
+				9C53C5712B84E6E00021828A /* TedarikcimMainPage */,
+				9C53C5692B84E6520021828A /* TedarikcimPazar */,
+				9C53C5682B84E63D0021828A /* TedarikcimHemen */,
+				9C53C5672B84E6260021828A /* TedarikcimOnline */,
 				9C9C2F762B80F71A00C42487 /* Helpers */,
 				9C9C2F3D2B80F2BC00C42487 /* AppDelegate.swift */,
 				9C9C2F3F2B80F2BC00C42487 /* SceneDelegate.swift */,
-				9C9C2F412B80F2BC00C42487 /* ViewController.swift */,
 				9C9C2F432B80F2BC00C42487 /* Main.storyboard */,
 				9C9C2F462B80F2BE00C42487 /* Assets.xcassets */,
 				9C9C2F482B80F2BE00C42487 /* LaunchScreen.storyboard */,
@@ -106,42 +253,40 @@
 			path = TedarikcimMobile;
 			sourceTree = "<group>";
 		};
-		9C9C2F702B80F54200C42487 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9C9C2F732B80F67100C42487 /* Entity */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9C9C2F712B80F54A00C42487 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9C9C2F722B80F55500C42487 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9C9C2F732B80F67100C42487 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				9C9C2F742B80F67D00C42487 /* User.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
 		9C9C2F762B80F71A00C42487 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				9C9C2F772B80FC3D00C42487 /* AlertHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9CA6795F2B85ED4F00B096A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CBD61D42B8627EB00D5D63E /* Services */,
+				9CA679602B85ED7100B096A8 /* RegiserUserRequest.swift */,
+				9CA3B7E12B85F65A0051E10F /* LoginUserRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CBD61D12B8621EE00D5D63E /* ViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9C53C5842B84ED8F0021828A /* CustomTextField.swift */,
+				9C53C5822B84ED7D0021828A /* CustomButton.swift */,
+				9C53C5802B84ED6E0021828A /* AuthHeaderView.swift */,
+			);
+			path = ViewHelper;
+			sourceTree = "<group>";
+		};
+		9CBD61D42B8627EB00D5D63E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9CBD61D92B86293F00D5D63E /* UserService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +380,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9C2F752B80F67D00C42487 /* User.swift in Sources */,
-				9C9C2F422B80F2BC00C42487 /* ViewController.swift in Sources */,
+				9C53C5852B84ED8F0021828A /* CustomTextField.swift in Sources */,
+				9C53C5812B84ED6E0021828A /* AuthHeaderView.swift in Sources */,
+				9C53C5772B84E8A30021828A /* MainPageController.swift in Sources */,
 				9C9C2F3E2B80F2BC00C42487 /* AppDelegate.swift in Sources */,
+				9C53C57F2B84ED490021828A /* ForgotPasswordController.swift in Sources */,
+				9CBD61D62B86288200D5D63E /* RegisterView.swift in Sources */,
+				9CA679612B85ED7100B096A8 /* RegiserUserRequest.swift in Sources */,
+				9C53C57B2B84ED230021828A /* LoginController.swift in Sources */,
+				9C53C5832B84ED7D0021828A /* CustomButton.swift in Sources */,
+				9CA3B7E22B85F65A0051E10F /* LoginUserRequest.swift in Sources */,
+				9CBD61DA2B86293F00D5D63E /* UserService.swift in Sources */,
 				9C9C2F782B80FC3D00C42487 /* AlertHelper.swift in Sources */,
 				9C9C2F402B80F2BC00C42487 /* SceneDelegate.swift in Sources */,
+				9CBD61D32B86231A00D5D63E /* LoginView.swift in Sources */,
+				9CBD61D82B86289400D5D63E /* ForgotPasswordView.swift in Sources */,
+				9C53C57D2B84ED300021828A /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TedarikcimMobile/TedarikcimMobile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -405,6 +562,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TedarikcimMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TedarikcimMobile/TedarikcimMobile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -432,6 +594,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TedarikcimMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
